@@ -1,12 +1,32 @@
 body {
     font-size: 20px;
+    margin: 50px;
     text-align: center;
 }
-#banner{
+#title{
+    height: 300px;
     color: white;
-    margin: 20px;
-    height: 200px;
-    background-image: url("img/TuringBannerCrop.png");
+    background-image: url("img/TuringBanner.png");
     background-repeat: no-repeat;
     background-position: center;
+    text-shadow: black;
+    -webkit-text-stroke: 1.5px black;
+    padding: 20px;
 }
+#title h1{
+    font-size: 100px;
+}
+#title h3{
+    font-size:50px;
+}
+#title p{
+    font-size: 30px;
+}
+.preamble{
+    margin:30px;
+}
+ul {
+    text-align: left;
+}
+
+
